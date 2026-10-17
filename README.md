@@ -3,18 +3,6 @@
 Point-level change classification from multi-date 0.5 m RGB satellite imagery. For every point the model outputs
 `p_change` and one class: `construction`, `destruction`, `soil_sealing` or `no_change`.
 
-## Results (fully nested validation, 932 points)
-S = harmonic mean of M_in (spatial 5-fold CV with 200 m blocks) and M_out (leave-one-site-out), macro-F1 over 4 classes.
-
-| | this model | previous best |
-|---|---|---|
-| **S** | **0.670** (cell-bootstrap 95 % CI 0.629–0.706) | 0.637 |
-| M_in | 0.717 | 0.692 |
-| M_out (unseen city) | **0.628** | 0.590 |
-| Aleppo held out | **0.771** | 0.684 |
-| S on the organizers' points with their original labels | 0.671 | 0.632 |
-
-Per-class F1, leave-one-site-out: construction 0.731, destruction 0.473, soil_sealing 0.506, no_change 0.801.
 
 ## Method
 ```
