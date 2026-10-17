@@ -1,0 +1,37 @@
+{
+ "weights": {
+  "B6gs_gapscene": 0.2,
+  "C6_v2_ft": 0.2,
+  "C_v3lab_dinov3_s0": 0.2,
+  "C_v2lab_s0": 0.2,
+  "F6_satlas_unet": 0.2
+ },
+ "t": 0.62,
+ "b": [
+  0.0,
+  0.0,
+  0.0
+ ],
+ "pc_platt": [
+  2.2243018760687305,
+  -1.1539378501738011
+ ],
+ "S_proxy_nested": 0.6695549668346948,
+ "M_in_nested": 0.7172322018144068,
+ "M_out_nested": 0.6278212295449519,
+ "S_ci_nested": [
+  0.6289,
+  0.7055
+ ],
+ "S_org_nested": 0.6711442019988206,
+ "aleppo_nested": 0.7708603896103896,
+ "labels": "training_points_reviewed.geojson (932 pts); B6gs: gap-balanced pairs + scene exclusions",
+ "note": "v6 g1: equal weights; t,b on pooled LOSO OOF; nested scores; p_change monotone Platt",
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ]
+}

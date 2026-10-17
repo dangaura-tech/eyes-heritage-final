@@ -1,0 +1,256 @@
+{
+ "members": [
+  "B6gs_gapscene",
+  "C6_v2_ft",
+  "C_v3lab_dinov3_s0",
+  "C_v2lab_s0"
+ ],
+ "results": [
+  {
+   "combine": "mean",
+   "rule": "tb",
+   "M_in": 0.7012494001836745,
+   "M_out": 0.5935110451142744,
+   "S": 0.6428977127008162,
+   "S_org": 0.6504322875718052,
+   "perclass_out": [
+    0.674,
+    0.435,
+    0.506,
+    0.759
+   ],
+   "per_site_out": {
+    "agadez": 0.511,
+    "aleppo": 0.731,
+    "derna": 0.632,
+    "marrakesh": 0.326,
+    "timbuktu": 0.633
+   },
+   "caruana_bags": null
+  },
+  {
+   "combine": "mean",
+   "rule": "consensus",
+   "M_in": 0.7052727976467663,
+   "M_out": 0.6033135919186399,
+   "S": 0.6503210918647738,
+   "S_org": 0.6542252059876217,
+   "perclass_out": [
+    0.669,
+    0.449,
+    0.527,
+    0.769
+   ],
+   "per_site_out": {
+    "agadez": 0.518,
+    "aleppo": 0.772,
+    "derna": 0.621,
+    "marrakesh": 0.334,
+    "timbuktu": 0.628
+   },
+   "caruana_bags": null,
+   "S_ci": [
+    0.6106,
+    0.6848
+   ]
+  },
+  {
+   "combine": "mean",
+   "rule": "split",
+   "M_in": 0.7012494001836745,
+   "M_out": 0.5935110451142744,
+   "S": 0.6428977127008162,
+   "S_org": 0.6504322875718052,
+   "perclass_out": [
+    0.674,
+    0.435,
+    0.506,
+    0.759
+   ],
+   "per_site_out": {
+    "agadez": 0.511,
+    "aleppo": 0.731,
+    "derna": 0.632,
+    "marrakesh": 0.326,
+    "timbuktu": 0.633
+   },
+   "caruana_bags": null
+  },
+  {
+   "combine": "geo",
+   "rule": "tb",
+   "M_in": 0.6993017862644331,
+   "M_out": 0.605419450631032,
+   "S": 0.6489829264570071,
+   "S_org": 0.6492649479664508,
+   "perclass_out": [
+    0.683,
+    0.455,
+    0.529,
+    0.755
+   ],
+   "per_site_out": {
+    "agadez": 0.521,
+    "aleppo": 0.75,
+    "derna": 0.628,
+    "marrakesh": 0.35,
+    "timbuktu": 0.637
+   },
+   "caruana_bags": null
+  },
+  {
+   "combine": "geo",
+   "rule": "consensus",
+   "M_in": 0.6998380888545308,
+   "M_out": 0.5885508534315517,
+   "S": 0.6393881396224858,
+   "S_org": 0.6405552848664904,
+   "perclass_out": [
+    0.648,
+    0.463,
+    0.491,
+    0.753
+   ],
+   "per_site_out": {
+    "agadez": 0.532,
+    "aleppo": 0.667,
+    "derna": 0.623,
+    "marrakesh": 0.348,
+    "timbuktu": 0.628
+   },
+   "caruana_bags": null
+  },
+  {
+   "combine": "geo",
+   "rule": "split",
+   "M_in": 0.7012494001836745,
+   "M_out": 0.5935110451142744,
+   "S": 0.6428977127008162,
+   "S_org": 0.6504322875718052,
+   "perclass_out": [
+    0.674,
+    0.435,
+    0.506,
+    0.759
+   ],
+   "per_site_out": {
+    "agadez": 0.511,
+    "aleppo": 0.731,
+    "derna": 0.632,
+    "marrakesh": 0.326,
+    "timbuktu": 0.633
+   },
+   "caruana_bags": null
+  },
+  {
+   "combine": "caruana",
+   "rule": "tb",
+   "M_in": 0.693717616988446,
+   "M_out": 0.6081332012495588,
+   "S": 0.648112224952755,
+   "S_org": 0.6493755463034893,
+   "perclass_out": [
+    0.687,
+    0.471,
+    0.5,
+    0.775
+   ],
+   "per_site_out": {
+    "agadez": 0.55,
+    "aleppo": 0.714,
+    "derna": 0.636,
+    "marrakesh": 0.383,
+    "timbuktu": 0.59
+   },
+   "caruana_bags": {
+    "agadez": "{np.str_('B6gs_gapscene'): np.int64(2), np.str_('C6_v2_ft'): np.int64(1), np.str_('C_v2lab_s0'): np.int64(1), np.str_('C_v3lab_dinov3_s0'): np.int64(1)}",
+    "aleppo": "{np.str_('B6gs_gapscene'): np.int64(1), np.str_('C6_v2_ft'): np.int64(1), np.str_('C_v3lab_dinov3_s0'): np.int64(1)}",
+    "derna": "{np.str_('B6gs_gapscene'): np.int64(1), np.str_('C6_v2_ft'): np.int64(1), np.str_('C_v3lab_dinov3_s0'): np.int64(1)}",
+    "marrakesh": "{np.str_('B6gs_gapscene'): np.int64(1), np.str_('C6_v2_ft'): np.int64(1), np.str_('C_v3lab_dinov3_s0'): np.int64(1)}",
+    "timbuktu": "{np.str_('B6gs_gapscene'): np.int64(1), np.str_('C6_v2_ft'): np.int64(1), np.str_('C_v3lab_dinov3_s0'): np.int64(1)}"
+   }
+  },
+  {
+   "combine": "caruana",
+   "rule": "consensus",
+   "M_in": 0.6802233626821921,
+   "M_out": 0.5892830881873926,
+   "S": 0.6314960015272161,
+   "S_org": 0.6318112145047281,
+   "perclass_out": [
+    0.643,
+    0.422,
+    0.513,
+    0.78
+   ],
+   "per_site_out": {
+    "agadez": 0.5,
+    "aleppo": 0.702,
+    "derna": 0.624,
+    "marrakesh": 0.354,
+    "timbuktu": 0.57
+   },
+   "caruana_bags": {
+    "agadez": "{np.str_('B6gs_gapscene'): np.int64(2), np.str_('C6_v2_ft'): np.int64(1), np.str_('C_v2lab_s0'): np.int64(1), np.str_('C_v3lab_dinov3_s0'): np.int64(1)}",
+    "aleppo": "{np.str_('B6gs_gapscene'): np.int64(1), np.str_('C6_v2_ft'): np.int64(1), np.str_('C_v3lab_dinov3_s0'): np.int64(1)}",
+    "derna": "{np.str_('B6gs_gapscene'): np.int64(1), np.str_('C6_v2_ft'): np.int64(1), np.str_('C_v3lab_dinov3_s0'): np.int64(1)}",
+    "marrakesh": "{np.str_('B6gs_gapscene'): np.int64(1), np.str_('C6_v2_ft'): np.int64(1), np.str_('C_v3lab_dinov3_s0'): np.int64(1)}",
+    "timbuktu": "{np.str_('B6gs_gapscene'): np.int64(1), np.str_('C6_v2_ft'): np.int64(1), np.str_('C_v3lab_dinov3_s0'): np.int64(1)}"
+   }
+  },
+  {
+   "combine": "caruana",
+   "rule": "split",
+   "M_in": 0.693717616988446,
+   "M_out": 0.6081332012495588,
+   "S": 0.648112224952755,
+   "S_org": 0.6493755463034893,
+   "perclass_out": [
+    0.687,
+    0.471,
+    0.5,
+    0.775
+   ],
+   "per_site_out": {
+    "agadez": 0.55,
+    "aleppo": 0.714,
+    "derna": 0.636,
+    "marrakesh": 0.383,
+    "timbuktu": 0.59
+   },
+   "caruana_bags": {
+    "agadez": "{np.str_('B6gs_gapscene'): np.int64(2), np.str_('C6_v2_ft'): np.int64(1), np.str_('C_v2lab_s0'): np.int64(1), np.str_('C_v3lab_dinov3_s0'): np.int64(1)}",
+    "aleppo": "{np.str_('B6gs_gapscene'): np.int64(1), np.str_('C6_v2_ft'): np.int64(1), np.str_('C_v3lab_dinov3_s0'): np.int64(1)}",
+    "derna": "{np.str_('B6gs_gapscene'): np.int64(1), np.str_('C6_v2_ft'): np.int64(1), np.str_('C_v3lab_dinov3_s0'): np.int64(1)}",
+    "marrakesh": "{np.str_('B6gs_gapscene'): np.int64(1), np.str_('C6_v2_ft'): np.int64(1), np.str_('C_v3lab_dinov3_s0'): np.int64(1)}",
+    "timbuktu": "{np.str_('B6gs_gapscene'): np.int64(1), np.str_('C6_v2_ft'): np.int64(1), np.str_('C_v3lab_dinov3_s0'): np.int64(1)}"
+   }
+  }
+ ],
+ "best": {
+  "combine": "mean",
+  "rule": "consensus",
+  "M_in": 0.7052727976467663,
+  "M_out": 0.6033135919186399,
+  "S": 0.6503210918647738,
+  "S_org": 0.6542252059876217,
+  "perclass_out": [
+   0.669,
+   0.449,
+   0.527,
+   0.769
+  ],
+  "per_site_out": {
+   "agadez": 0.518,
+   "aleppo": 0.772,
+   "derna": 0.621,
+   "marrakesh": 0.334,
+   "timbuktu": 0.628
+  },
+  "caruana_bags": null,
+  "S_ci": [
+   0.6106,
+   0.6848
+  ]
+ }
+}

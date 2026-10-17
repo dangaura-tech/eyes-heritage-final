@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.DS_Store
+data/
+cache/
+logs/
+work/
+models/
+reports/
+hf_cache/
+catboost_info/
+*.npz
+*.pt
+*.ipynb

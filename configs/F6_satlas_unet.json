@@ -1,0 +1,30 @@
+{
+ "name": "F6_satlas_unet",
+ "kind": "C",
+ "cfg": {
+  "loss": "focal",
+  "gamma": 1.5,
+  "smooth": 0.05,
+  "lr": 0.0003,
+  "lr_lora": 5e-05,
+  "epochs": 40,
+  "bs": 16,
+  "rank": 16,
+  "last_k": 8,
+  "reverse": true,
+  "label_w": true,
+  "balance": true,
+  "agg": "top2",
+  "tta": 4,
+  "workers": 3,
+  "arch": "unet",
+  "enc": "satlas-swinv2b",
+  "two_head": true,
+  "tau": 1.0,
+  "ema": 0.99,
+  "val_bs": 16,
+  "pred_chunk": 8
+ },
+ "budget": 35,
+ "cv_hash": "e0255087"
+}

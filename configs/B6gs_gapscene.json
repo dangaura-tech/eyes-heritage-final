@@ -1,0 +1,27 @@
+{
+ "name": "B6gs_gapscene",
+ "kind": "B",
+ "cfg": {
+  "emb": "dinov2-l_B1",
+  "loss": "focal",
+  "gamma": 1.5,
+  "smooth": 0.05,
+  "lr": 0.0003,
+  "wd": 0.05,
+  "epochs": 150,
+  "bs": 64,
+  "reverse": false,
+  "ambiguous": "exclude",
+  "label_w": true,
+  "balance": true,
+  "tokdrop": 0.1,
+  "mixup": 0.2,
+  "agg": "top2",
+  "k": 2,
+  "tta": 8,
+  "use_mid": true,
+  "workers": 2
+ },
+ "budget": 35,
+ "cv_hash": "b95c29f9"
+}

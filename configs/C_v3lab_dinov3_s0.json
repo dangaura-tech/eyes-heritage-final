@@ -1,0 +1,24 @@
+{
+ "name": "C_v3lab_dinov3_s0",
+ "kind": "C",
+ "cfg": {
+  "loss": "focal",
+  "gamma": 1.5,
+  "smooth": 0.05,
+  "lr": 0.0003,
+  "lr_lora": 0.0001,
+  "epochs": 40,
+  "bs": 32,
+  "rank": 16,
+  "last_k": 8,
+  "reverse": true,
+  "label_w": true,
+  "balance": true,
+  "agg": "top2",
+  "tta": 8,
+  "workers": 3,
+  "bb": "dinov3s-l"
+ },
+ "budget": 35,
+ "cv_hash": "00aaca6b"
+}
